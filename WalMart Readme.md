@@ -10,11 +10,11 @@ Feature Name                           	Description
 Store                                  	Store number                                    
 Date                                   	Week of Sales                                   
 Weekly Sales                           	Sales for the given store in that week          
-Holiday Flag    	                      If it is a holiday week                         
-Temperature     	                      Temperature on the day of the sale              
-Fuel Price      	                      Cost of the fuel in the region                  
-CPI                                   	Consumer Price Index                            
-Unemployment                           	Unemployment Rate              
+Holiday Flag    	                       If it is a holiday week                         
+Temperature     	                       Temperature on the day of the sale              
+Fuel Price      	                       Cost of the fuel in the region                  
+CPI                                    	Consumer Price Index                            
+Unemployment                            Unemployment Rate              
 
 
 Data Preprocessing 
@@ -26,6 +26,8 @@ The preprocessing of the data included the following
 4.	The dataset has redundant dates, because each store’s weekly sales have its own data which makes the dataset big.
 5.	 Since we have to make prediction for each and every store, we make them into a separate data frame before we make prediction (we do this in the last column which is in a for loop).
 6.	 The dataset has outliers which are necessary for prediction so we do not remove them.
+![image](https://github.com/lii4ee/Projects/assets/80196177/b9b0ea4a-b226-439b-a493-00a9b71057b1)
+
  
 Choosing the Algorithm for the Project 
 Description for the FBProphet algorithm for the project.
@@ -50,13 +52,18 @@ The following assumptions were made in order to create the model for Walmart pro
 Model Evaluation and Technique 
 The following techniques and steps were involved in the evaluation of the model 
 1.	The model’s prediction from Linear Regression and Random Forest Regression has been place on top of each other to see how good they predict the sales. 
- 
+
+![image](https://github.com/lii4ee/Projects/assets/80196177/69c18f0d-95c0-4690-9457-d9536aeeb642)
+
 The evaluation report suggests the following: 
              
 1.	The sales increases till the New year and drop after 2 weeks which then improves till average sales.
 2.	The Sales drop during March for some stores.
 3.	The Sales is at peak at Christmas and New year holidays.
 4.	The sales drop after New year Holidays.
+
+![image](https://github.com/lii4ee/Projects/assets/80196177/1978e43e-fc7e-4b60-8db3-411760f8c6bb)
+![image](https://github.com/lii4ee/Projects/assets/80196177/37cc12c6-118d-4973-a10b-01a48b4c1ff5)
 
 
 Inferences from the Project
